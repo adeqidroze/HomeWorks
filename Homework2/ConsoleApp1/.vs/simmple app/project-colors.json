@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ebb5850b-f43b-488f-b92f-7eac156e1afa": {
+      "ProjectGuid": "ebb5850b-f43b-488f-b92f-7eac156e1afa",
+      "DisplayName": "SimpleApp",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
