@@ -1,0 +1,15 @@
+E:\commschool\homeworks\homework4\ConsoleApp1\bin\Debug\net6.0\SimpleApp.exe
+E:\commschool\homeworks\homework4\ConsoleApp1\bin\Debug\net6.0\SimpleApp.deps.json
+E:\commschool\homeworks\homework4\ConsoleApp1\bin\Debug\net6.0\SimpleApp.runtimeconfig.json
+E:\commschool\homeworks\homework4\ConsoleApp1\bin\Debug\net6.0\SimpleApp.dll
+E:\commschool\homeworks\homework4\ConsoleApp1\bin\Debug\net6.0\ref\SimpleApp.dll
+E:\commschool\homeworks\homework4\ConsoleApp1\bin\Debug\net6.0\SimpleApp.pdb
+E:\commschool\homeworks\homework4\ConsoleApp1\obj\Debug\net6.0\SimpleApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\commschool\homeworks\homework4\ConsoleApp1\obj\Debug\net6.0\SimpleApp.AssemblyInfoInputs.cache
+E:\commschool\homeworks\homework4\ConsoleApp1\obj\Debug\net6.0\SimpleApp.AssemblyInfo.cs
+E:\commschool\homeworks\homework4\ConsoleApp1\obj\Debug\net6.0\SimpleApp.csproj.CoreCompileInputs.cache
+E:\commschool\homeworks\homework4\ConsoleApp1\obj\Debug\net6.0\SimpleApp.dll
+E:\commschool\homeworks\homework4\ConsoleApp1\obj\Debug\net6.0\ref\SimpleApp.dll
+E:\commschool\homeworks\homework4\ConsoleApp1\obj\Debug\net6.0\SimpleApp.pdb
+E:\commschool\homeworks\homework4\ConsoleApp1\obj\Debug\net6.0\SimpleApp.genruntimeconfig.cache
+E:\commschool\homeworks\homework4\ConsoleApp1\obj\Debug\net6.0\SimpleApp.csproj.AssemblyReference.cache
