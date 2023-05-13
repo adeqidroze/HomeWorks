@@ -1,0 +1,16 @@
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework4\ConsoleAppCollections\bin\Debug\net5.0\ConsoleAppCollections.exe
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework4\ConsoleAppCollections\bin\Debug\net5.0\ConsoleAppCollections.deps.json
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework4\ConsoleAppCollections\bin\Debug\net5.0\ConsoleAppCollections.runtimeconfig.json
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework4\ConsoleAppCollections\bin\Debug\net5.0\ConsoleAppCollections.runtimeconfig.dev.json
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework4\ConsoleAppCollections\bin\Debug\net5.0\ConsoleAppCollections.dll
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework4\ConsoleAppCollections\bin\Debug\net5.0\ref\ConsoleAppCollections.dll
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework4\ConsoleAppCollections\bin\Debug\net5.0\ConsoleAppCollections.pdb
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework4\ConsoleAppCollections\obj\Debug\net5.0\ConsoleAppCollections.csproj.AssemblyReference.cache
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework4\ConsoleAppCollections\obj\Debug\net5.0\ConsoleAppCollections.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework4\ConsoleAppCollections\obj\Debug\net5.0\ConsoleAppCollections.AssemblyInfoInputs.cache
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework4\ConsoleAppCollections\obj\Debug\net5.0\ConsoleAppCollections.AssemblyInfo.cs
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework4\ConsoleAppCollections\obj\Debug\net5.0\ConsoleAppCollections.csproj.CoreCompileInputs.cache
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework4\ConsoleAppCollections\obj\Debug\net5.0\ConsoleAppCollections.dll
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework4\ConsoleAppCollections\obj\Debug\net5.0\ref\ConsoleAppCollections.dll
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework4\ConsoleAppCollections\obj\Debug\net5.0\ConsoleAppCollections.pdb
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework4\ConsoleAppCollections\obj\Debug\net5.0\ConsoleAppCollections.genruntimeconfig.cache
