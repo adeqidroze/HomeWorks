@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "5F0Ms4GzaUQjk+yKtupjiZTgB660sxkTIkqNHGB78Gdw+gyRBGfoEs0lKhz0DF3CEA+IcVasXz6nTGYjX/2Q+A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\User\\Source\\Repos\\adeqidroze\\HomeWorks\\Homework3\\ConsoleAppTasks\\ConsoleAppTasks.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}
