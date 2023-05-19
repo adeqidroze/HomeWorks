@@ -1,0 +1,16 @@
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework5\ConsolAppRandomFunc\obj\Debug\net5.0\ConsolAppRandomFunc.csproj.AssemblyReference.cache
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework5\ConsolAppRandomFunc\obj\Debug\net5.0\ConsolAppRandomFunc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework5\ConsolAppRandomFunc\obj\Debug\net5.0\ConsolAppRandomFunc.AssemblyInfoInputs.cache
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework5\ConsolAppRandomFunc\obj\Debug\net5.0\ConsolAppRandomFunc.AssemblyInfo.cs
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework5\ConsolAppRandomFunc\obj\Debug\net5.0\ConsolAppRandomFunc.csproj.CoreCompileInputs.cache
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework5\ConsolAppRandomFunc\bin\Debug\net5.0\ConsolAppRandomFunc.exe
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework5\ConsolAppRandomFunc\bin\Debug\net5.0\ConsolAppRandomFunc.deps.json
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework5\ConsolAppRandomFunc\bin\Debug\net5.0\ConsolAppRandomFunc.runtimeconfig.json
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework5\ConsolAppRandomFunc\bin\Debug\net5.0\ConsolAppRandomFunc.runtimeconfig.dev.json
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework5\ConsolAppRandomFunc\bin\Debug\net5.0\ConsolAppRandomFunc.dll
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework5\ConsolAppRandomFunc\bin\Debug\net5.0\ref\ConsolAppRandomFunc.dll
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework5\ConsolAppRandomFunc\bin\Debug\net5.0\ConsolAppRandomFunc.pdb
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework5\ConsolAppRandomFunc\obj\Debug\net5.0\ConsolAppRandomFunc.dll
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework5\ConsolAppRandomFunc\obj\Debug\net5.0\ref\ConsolAppRandomFunc.dll
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework5\ConsolAppRandomFunc\obj\Debug\net5.0\ConsolAppRandomFunc.pdb
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework5\ConsolAppRandomFunc\obj\Debug\net5.0\ConsolAppRandomFunc.genruntimeconfig.cache
