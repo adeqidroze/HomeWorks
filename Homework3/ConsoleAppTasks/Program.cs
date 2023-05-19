@@ -9,7 +9,7 @@ namespace ConsoleAppTasks
         public static Double MaxInput;
 
         //helper methods
-        static Boolean TypeFinder(string input)
+        static Boolean TypeFinder(string input)           //NOTICE this can be improved
         {
             string findInputType = "String";
 
@@ -18,12 +18,12 @@ namespace ConsoleAppTasks
                 int inputInt;
                 double inputDouble;
 
-                if (Int32.TryParse(input, out inputInt))
+                if (Int32.TryParse(input, out inputInt)) // double already has enough span to contain int parameters so with double this code is enough
                 {
                     findInputType = "Int";
                     return true;
                 }
-                else if (Double.TryParse(input, out inputDouble))
+                else if (Double.TryParse(input, out inputDouble)) //this does everything int does so this is more than enough
                 {
                     findInputType = "Double";
                     return true;
@@ -92,13 +92,13 @@ namespace ConsoleAppTasks
 
 
         //homework
-        static void DevisionByFive() 
+        static void DevisionByFive()                  //NOTICE this can be improved
         {
             inputValidator();
-            var firstInput = input;
+            var firstInput = input; // here this statement is jus extra we could just use input in if statement
             input = 0.1;
 
-            if (firstInput % 5 == 0)
+            if (firstInput % 5 == 0)// should be just using input here
             {
                 Console.WriteLine("Yes");
             }
