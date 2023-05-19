@@ -1,0 +1,16 @@
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework6\ConsoleAppIntroToFunctions\obj\Debug\net5.0\ConsoleAppIntroToFunctions.csproj.AssemblyReference.cache
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework6\ConsoleAppIntroToFunctions\obj\Debug\net5.0\ConsoleAppIntroToFunctions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework6\ConsoleAppIntroToFunctions\obj\Debug\net5.0\ConsoleAppIntroToFunctions.AssemblyInfoInputs.cache
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework6\ConsoleAppIntroToFunctions\obj\Debug\net5.0\ConsoleAppIntroToFunctions.AssemblyInfo.cs
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework6\ConsoleAppIntroToFunctions\obj\Debug\net5.0\ConsoleAppIntroToFunctions.csproj.CoreCompileInputs.cache
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework6\ConsoleAppIntroToFunctions\bin\Debug\net5.0\ConsoleAppIntroToFunctions.exe
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework6\ConsoleAppIntroToFunctions\bin\Debug\net5.0\ConsoleAppIntroToFunctions.deps.json
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework6\ConsoleAppIntroToFunctions\bin\Debug\net5.0\ConsoleAppIntroToFunctions.runtimeconfig.json
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework6\ConsoleAppIntroToFunctions\bin\Debug\net5.0\ConsoleAppIntroToFunctions.runtimeconfig.dev.json
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework6\ConsoleAppIntroToFunctions\bin\Debug\net5.0\ConsoleAppIntroToFunctions.dll
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework6\ConsoleAppIntroToFunctions\bin\Debug\net5.0\ref\ConsoleAppIntroToFunctions.dll
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework6\ConsoleAppIntroToFunctions\bin\Debug\net5.0\ConsoleAppIntroToFunctions.pdb
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework6\ConsoleAppIntroToFunctions\obj\Debug\net5.0\ConsoleAppIntroToFunctions.dll
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework6\ConsoleAppIntroToFunctions\obj\Debug\net5.0\ref\ConsoleAppIntroToFunctions.dll
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework6\ConsoleAppIntroToFunctions\obj\Debug\net5.0\ConsoleAppIntroToFunctions.pdb
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework6\ConsoleAppIntroToFunctions\obj\Debug\net5.0\ConsoleAppIntroToFunctions.genruntimeconfig.cache
