@@ -1,0 +1,16 @@
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework8\homework8CApp\bin\Debug\net5.0\homework8CApp.exe
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework8\homework8CApp\bin\Debug\net5.0\homework8CApp.deps.json
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework8\homework8CApp\bin\Debug\net5.0\homework8CApp.runtimeconfig.json
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework8\homework8CApp\bin\Debug\net5.0\homework8CApp.runtimeconfig.dev.json
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework8\homework8CApp\bin\Debug\net5.0\homework8CApp.dll
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework8\homework8CApp\bin\Debug\net5.0\ref\homework8CApp.dll
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework8\homework8CApp\bin\Debug\net5.0\homework8CApp.pdb
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework8\homework8CApp\obj\Debug\net5.0\homework8CApp.csproj.AssemblyReference.cache
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework8\homework8CApp\obj\Debug\net5.0\homework8CApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework8\homework8CApp\obj\Debug\net5.0\homework8CApp.AssemblyInfoInputs.cache
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework8\homework8CApp\obj\Debug\net5.0\homework8CApp.AssemblyInfo.cs
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework8\homework8CApp\obj\Debug\net5.0\homework8CApp.csproj.CoreCompileInputs.cache
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework8\homework8CApp\obj\Debug\net5.0\homework8CApp.dll
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework8\homework8CApp\obj\Debug\net5.0\ref\homework8CApp.dll
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework8\homework8CApp\obj\Debug\net5.0\homework8CApp.pdb
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework8\homework8CApp\obj\Debug\net5.0\homework8CApp.genruntimeconfig.cache
