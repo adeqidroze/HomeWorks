@@ -1,0 +1,16 @@
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework9\designPatterns\obj\Debug\net5.0\designPatterns.csproj.AssemblyReference.cache
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework9\designPatterns\obj\Debug\net5.0\designPatterns.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework9\designPatterns\obj\Debug\net5.0\designPatterns.AssemblyInfoInputs.cache
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework9\designPatterns\obj\Debug\net5.0\designPatterns.AssemblyInfo.cs
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework9\designPatterns\obj\Debug\net5.0\designPatterns.csproj.CoreCompileInputs.cache
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework9\designPatterns\bin\Debug\net5.0\designPatterns.exe
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework9\designPatterns\bin\Debug\net5.0\designPatterns.deps.json
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework9\designPatterns\bin\Debug\net5.0\designPatterns.runtimeconfig.json
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework9\designPatterns\bin\Debug\net5.0\designPatterns.runtimeconfig.dev.json
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework9\designPatterns\bin\Debug\net5.0\designPatterns.dll
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework9\designPatterns\bin\Debug\net5.0\ref\designPatterns.dll
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework9\designPatterns\bin\Debug\net5.0\designPatterns.pdb
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework9\designPatterns\obj\Debug\net5.0\designPatterns.dll
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework9\designPatterns\obj\Debug\net5.0\ref\designPatterns.dll
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework9\designPatterns\obj\Debug\net5.0\designPatterns.pdb
+C:\Users\User\Source\Repos\adeqidroze\HomeWorks\Homework9\designPatterns\obj\Debug\net5.0\designPatterns.genruntimeconfig.cache
