@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "vnLkqKe+4MREjEPoV60zzHX4IANQOj+ebh6c3KwXNMsb+mqI4iPyBMyNrvFbQiSvJm6wB2wyPU6uEK4RLiUlZQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\User\\Source\\Repos\\adeqidroze\\HomeWorks\\Homework9\\designPatterns\\designPatterns.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}
