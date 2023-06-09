@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Appointments";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Enter Info</h1>
+    <form action="/action_page.php">
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname" value="" ><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname" value=""><br>
+      <label for="dType">Doctor:</label><br>
+      <select name="doctors" id="doctors" multiple>
+          <option value="Dentist">Dentist</option>
+          <option value="Ophtalmologist">Ophtalmologist</option>
+          <option value="Pediatrition">Pediatrition</option>
+      </select>
+      <label for="time">Time:</label><br>
+      <select name="time" id="time" multiple>
+        <option value="11:00">11:00</option>
+        <option value="12:00">12:00</option>
+        <option value="13:00">13:00</option>
+        <option value="14:00">14:00</option>
+        <option value="15:00">15:00</option>
+        <option value="16:00">16:00</option>
+        <option value="17:00">17:00</option>
+      </select>
+
+      <input type="submit" value="Submit">
+    </form> 
+</div>

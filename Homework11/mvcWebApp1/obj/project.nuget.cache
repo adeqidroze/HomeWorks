@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Grii10I1EEC6Q847os/MRl1V5idI0MVBrS3iCPLZTgcsOdJqg7cqrbHvi1d/tW59MB+ThTWpNwGaXbyuY1J+jw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\User\\Source\\Repos\\adeqidroze\\HomeWorks\\Homework11\\mvcWebApp1\\mvcWebApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}
