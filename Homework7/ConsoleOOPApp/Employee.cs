@@ -34,7 +34,7 @@ namespace ConsoleOOPApp
 
 
 
-            if (inPos == Positions.PO) //choosing hourly rate by position
+            if (inPos == Positions.PO) //choosing hourly rate by position //better in method
                 hourlyRate = 40; 
             else if (inPos == Positions.Dev)  
                 hourlyRate = 30; 

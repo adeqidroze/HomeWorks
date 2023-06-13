@@ -1,0 +1,31 @@
+[
+  {
+    
+    "Id": 1,
+    "CreateDate": "2023-06-09T17:57:05.745Z",
+    "Firstname": "string",
+    "Lastname": "string",
+    "JobPosition": "string",
+    "Salary": 7000.0,
+    "WorkExperince": 0.0,
+    "PersonAddress": {
+      "Country": "string",
+      "City": "string",
+      "HomeNumber": "string"
+    }
+  },
+  {
+    "Id": 11,
+    "CreateDate": "2023-06-09T20:35:04.261Z",
+    "Firstname": "zizi",
+    "Lastname": "vau",
+    "JobPosition": "string",
+    "Salary": 4000.0,
+    "WorkExperince": 0.0,
+    "PersonAddress": {
+      "Country": "string",
+      "City": "string",
+      "HomeNumber": "string"
+    }
+  }
+]

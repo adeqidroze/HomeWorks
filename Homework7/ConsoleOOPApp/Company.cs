@@ -13,7 +13,7 @@ namespace ConsoleOOPApp
         public static double TaxToPay(bool origin, double amount) 
         {
             if (origin == true)  
-                return amount * 0.82; 
+                return amount * 0.82; //short code here!!
             else
                 return amount * 0.95;
         }
