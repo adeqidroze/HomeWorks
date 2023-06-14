@@ -47,7 +47,6 @@ namespace FirstWebApi.Controllers
             //AcceptedAtActionResult createResult = $"Person with Id {person.Id} has been created.\n" ;
         }
 
-
         [HttpPut("updatePersons")]
         public IActionResult UpdatePersons(Persons person)
         {
@@ -79,14 +78,11 @@ namespace FirstWebApi.Controllers
             //return Accepted($"Person with Id {person.Id} has been updated.\n" + myPersons);
         }
 
-
         [HttpGet("gwtPersons")]
         public IActionResult GetPersons() 
         {           
             return Accepted(JsonDese.JDeserializer(filePath)); 
         }
-
-
 
         [HttpGet("getPerson/{id}")]
         public IActionResult GetPersonById(int id)
@@ -99,18 +95,18 @@ namespace FirstWebApi.Controllers
             return Accepted(getByIdResult.First()); 
         }
 
-        [HttpGet("getPersons/withFilter")]
-        public IActionResult GetpersonByFilter(string filterType, string input )
+        [HttpGet("getPersons/WithMyChoiceOfFilter:D")]
+        public IActionResult GetpersonByFilter()
         {
             var myPersons = JsonDese.JDeserializer(filePath);
             var prevPerson = 0.0;
             var maxPersonSalary = 0.0;
+            // same as max experience, also we can just get 
             foreach (var person in myPersons)
             {                  
                 maxPersonSalary = Math.Max(prevPerson, person.Salary);
                 prevPerson = person.Salary;
             }
-           // var getBiggestSalary = JsonDese.JDeserializer(filePath).Where(x => ));
             return Accepted(myPersons.Where(x=>x.Salary == maxPersonSalary).First());
         }
 
