@@ -38,7 +38,7 @@ namespace FirstWebApi.Controllers
         [HttpGet("GetPersons")]
         public async Task<ActionResult<IEnumerable<Person>>> GetPersons()
         {
-            return await p_context.Persons.ToListAsync();
+            return await p_context.Persons.Include(a => a.PersonAddress).ToListAsync();
         }
 
         [HttpGet("GetAddresses")]
@@ -85,17 +85,21 @@ namespace FirstWebApi.Controllers
         }
 
         [HttpDelete]
-        public async Task<ActionResult<IEnumerable<Person>>> DeletePerson(int id)
+        public  ActionResult<Person> DeletePerson(int id)
         {
-            var RowToRemove = p_context.Persons.SingleOrDefault(x => x.Id == id); 
+            var personToRemove = p_context.Persons.SingleOrDefault(x => x.Id == id); 
 
-            if (RowToRemove != null)
+            if (personToRemove != null)
             {
-                p_context.Persons.Remove(RowToRemove);
+                p_context.Persons.Remove(personToRemove);
                 p_context.SaveChanges();
+                return personToRemove;
             }
-            return await p_context.Persons.ToListAsync();
-            //return await p_context.Persons.Where(x => x.Salary == maxPersonSalary).ToListAsync();
+            else
+            {
+                return BadRequest("Error");
+            }
+            
         }
 
 
