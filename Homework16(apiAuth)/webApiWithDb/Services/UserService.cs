@@ -9,6 +9,7 @@ namespace webApiWithDb.Services
     {
         CredentialsDto Login(CredentialsDto model);
         CredentialsDto GetById(int id);
+        CredentialsDto GetAll();
 
     }
     public class UserService : IUserInterface
@@ -22,9 +23,15 @@ namespace webApiWithDb.Services
             _context = personContext;
         }
 
+        public CredentialsDto GetAll()
+        {
+            var myCreds = _context.Credentials.ToList();
+            return _mapper.Map<CredentialsDto>(myCreds);
+        }
+
         public CredentialsDto GetById(int id)
         {
-            var myCreds = _context.UserCredentials.Where(x => x.Id == id);
+            var myCreds = _context.Credentials.Where(x => x.Id == id);
             return _mapper.Map<CredentialsDto>(myCreds);
         }
 
@@ -34,7 +41,7 @@ namespace webApiWithDb.Services
             {
                 return null;
             }
-            var userCreds = _context.UserCredentials.SingleOrDefault(x => x.Username == loginModel.Username);
+            var userCreds = _context.Credentials.SingleOrDefault(x => x.Username == loginModel.Username);
             if(userCreds == null)
             {
                 return null;

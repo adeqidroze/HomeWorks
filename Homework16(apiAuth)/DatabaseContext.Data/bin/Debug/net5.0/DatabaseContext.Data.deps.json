@@ -9,6 +9,7 @@
       "DatabaseContext.Data/1.0.0": {
         "dependencies": {
           "Database.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.0"
         },
@@ -978,6 +979,7 @@
       },
       "Database.Domain/1.0.0": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.0",
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {

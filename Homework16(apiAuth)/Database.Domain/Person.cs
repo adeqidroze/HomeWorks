@@ -19,10 +19,9 @@ namespace Database.Domain
         public string JobPosition { get; set; }
         public double Salary { get; set; }
         public double WorkExperince { get; set; }
-        [JsonIgnore]
         public int AddressId { get; set; }      
         public Address PersonAddress { get; set; }
-        public Credentials Credentials { get; set; }
+        public Credential Credential { get; set; }
 
    
         

@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DatabaseContext.Data.Migrations
 {
     [DbContext(typeof(PersonContext))]
-    [Migration("20230624020203_addingCredentialtable")]
-    partial class addingCredentialtable
+    [Migration("20230624045215_newdatabase")]
+    partial class newdatabase
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -42,7 +42,7 @@ namespace DatabaseContext.Data.Migrations
                     b.ToTable("Addresses");
                 });
 
-            modelBuilder.Entity("Database.Domain.Credentials", b =>
+            modelBuilder.Entity("Database.Domain.Credential", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -52,7 +52,7 @@ namespace DatabaseContext.Data.Migrations
                     b.Property<string>("Password")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("UserId")
+                    b.Property<int>("PersonId")
                         .HasColumnType("int");
 
                     b.Property<string>("Username")
@@ -60,10 +60,10 @@ namespace DatabaseContext.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("UserId")
+                    b.HasIndex("PersonId")
                         .IsUnique();
 
-                    b.ToTable("UserCredentials");
+                    b.ToTable("Credentials");
                 });
 
             modelBuilder.Entity("Database.Domain.Person", b =>
@@ -101,15 +101,15 @@ namespace DatabaseContext.Data.Migrations
                     b.ToTable("Persons");
                 });
 
-            modelBuilder.Entity("Database.Domain.Credentials", b =>
+            modelBuilder.Entity("Database.Domain.Credential", b =>
                 {
-                    b.HasOne("Database.Domain.Person", "User")
-                        .WithOne("UserCredentials")
-                        .HasForeignKey("Database.Domain.Credentials", "UserId")
+                    b.HasOne("Database.Domain.Person", "MyPerson")
+                        .WithOne("Credential")
+                        .HasForeignKey("Database.Domain.Credential", "PersonId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("User");
+                    b.Navigation("MyPerson");
                 });
 
             modelBuilder.Entity("Database.Domain.Person", b =>
@@ -125,7 +125,7 @@ namespace DatabaseContext.Data.Migrations
 
             modelBuilder.Entity("Database.Domain.Person", b =>
                 {
-                    b.Navigation("UserCredentials");
+                    b.Navigation("Credential");
                 });
 #pragma warning restore 612, 618
         }

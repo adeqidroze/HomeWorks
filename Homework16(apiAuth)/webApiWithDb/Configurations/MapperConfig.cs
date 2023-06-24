@@ -14,8 +14,10 @@ namespace webApiWithDb.Configurations
                 PersonDto>().ReverseMap();
             CreateMap<Address,
                 AddressDto>().ReverseMap();
-            CreateMap<Credentials,
+            CreateMap<Credential,
                 CredentialsDto>().ReverseMap();
+            CreateMap<Role,
+                RoleDto>().ReverseMap();
 
         }
     }

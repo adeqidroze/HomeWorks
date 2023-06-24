@@ -40,7 +40,7 @@ namespace DatabaseContext.Data.Migrations
                     b.ToTable("Addresses");
                 });
 
-            modelBuilder.Entity("Database.Domain.Credentials", b =>
+            modelBuilder.Entity("Database.Domain.Credential", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -53,6 +53,9 @@ namespace DatabaseContext.Data.Migrations
                     b.Property<int>("PersonId")
                         .HasColumnType("int");
 
+                    b.Property<int>("RoleId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Username")
                         .HasColumnType("nvarchar(max)");
 
@@ -61,7 +64,9 @@ namespace DatabaseContext.Data.Migrations
                     b.HasIndex("PersonId")
                         .IsUnique();
 
-                    b.ToTable("UserCredentials");
+                    b.HasIndex("RoleId");
+
+                    b.ToTable("Credentials");
                 });
 
             modelBuilder.Entity("Database.Domain.Person", b =>
@@ -99,15 +104,41 @@ namespace DatabaseContext.Data.Migrations
                     b.ToTable("Persons");
                 });
 
-            modelBuilder.Entity("Database.Domain.Credentials", b =>
+            modelBuilder.Entity("Database.Domain.Role", b =>
                 {
-                    b.HasOne("Database.Domain.Person", "Person")
-                        .WithOne("Credentials")
-                        .HasForeignKey("Database.Domain.Credentials", "PersonId")
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
+
+                    b.Property<string>("RoleName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("RoleType")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Roles");
+                });
+
+            modelBuilder.Entity("Database.Domain.Credential", b =>
+                {
+                    b.HasOne("Database.Domain.Person", "MyPerson")
+                        .WithOne("Credential")
+                        .HasForeignKey("Database.Domain.Credential", "PersonId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Person");
+                    b.HasOne("Database.Domain.Role", "UserRole")
+                        .WithMany()
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("MyPerson");
+
+                    b.Navigation("UserRole");
                 });
 
             modelBuilder.Entity("Database.Domain.Person", b =>
@@ -123,7 +154,7 @@ namespace DatabaseContext.Data.Migrations
 
             modelBuilder.Entity("Database.Domain.Person", b =>
                 {
-                    b.Navigation("Credentials");
+                    b.Navigation("Credential");
                 });
 #pragma warning restore 612, 618
         }

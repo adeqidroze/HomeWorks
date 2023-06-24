@@ -13,7 +13,7 @@ namespace Database.Domain
         public string Country { get; set; }
         public string City { get; set; }
         public string HomeNumber { get; set; }
-        [JsonIgnore]
+
         public List<Person> Persons = new List<Person>();
         
     }

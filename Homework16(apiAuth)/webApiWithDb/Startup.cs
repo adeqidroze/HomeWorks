@@ -18,7 +18,6 @@ using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using webApiWithDb.Services;
-using static webApiWithDb.Services.TokenGeneratorService;
 
 namespace webApiWithDb
 {
@@ -46,6 +45,8 @@ namespace webApiWithDb
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "webApiWithDb", Version = "v1" });
+                c.ResolveConflictingActions(apiDescriptions => apiDescriptions.First()); //This line
+
             });
 
             var appSettingsSection = Configuration.GetSection("AppSettings");
@@ -70,8 +71,7 @@ namespace webApiWithDb
                        };
                    });
             services.AddScoped<IUserInterface, UserService>();
-            //services.AddScoped<IGenerateToken, GenerateTokenService>();
-            //services.AddScoped<IUserServiceWithRole, UserServiceWithRole>();
+            services.AddScoped<ITokenGeneratorService, TokenGenerateService>();
         }
     
 
@@ -82,7 +82,7 @@ namespace webApiWithDb
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "webApiWithDb v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("./v1/swagger.json", "webApiWithDb v1"));
             }
 
             app.UseRouting();

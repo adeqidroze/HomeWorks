@@ -14,9 +14,9 @@ namespace Database.Data
         {
         } 
 
-        public DbSet<Credentials> UserCredentials { get; set; }
+        public DbSet<Credential> Credentials { get; set; }
         public DbSet<Person> Persons { get; set; }
         public DbSet<Address> Addresses { get; set; }
-       
+        public DbSet<Role> Roles { get; set; }
     }
 }
